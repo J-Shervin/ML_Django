@@ -37,8 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'endpoints', # apps
     'rest_framework', # add django rest framework
+    # apps
+    'endpoints',
+    'ml',
 ]
 
 MIDDLEWARE = [
